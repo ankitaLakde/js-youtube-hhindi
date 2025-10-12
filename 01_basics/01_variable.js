@@ -7,11 +7,13 @@ let accountState; //here we didn't pass any value then it will shown as undefine
 
 /* 
 prefer not to use var
-because of issue in block acope & functional scope
+because of issue in block scope & functional scope
 */
 // accountId=2//not allowed
 console.log(accountId);
 accountEmail="assd@gmail.com"
+console.log(accountEmail);
+
 accountPassword="lol"
 accountLocation="Chhatrapati Sambhaji Nagar" 
 
