@@ -29,5 +29,25 @@ const myFunction=function(){
 
 console.log(typeof(myFunction))
 
+// Heap(Primitive), Heap (Nonprimitve)
+
+let myYotubename="ankita"
+let anothername=myYotubename
+anothername="Anks"
+// in stack value is copy so both values are different
+console.log(anothername);
+console.log(myYotubename);
+
+let userOne={
+    email:"ads@gmail.com",
+    upi:"sa@ybl"
+
+}
+// in Heap not stored copy directly apply change value to all(updated in original value)
+let userTwo=userOne
+
+userTwo.email="k@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
 
 
